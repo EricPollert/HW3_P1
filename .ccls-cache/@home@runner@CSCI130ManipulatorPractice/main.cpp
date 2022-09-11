@@ -35,7 +35,7 @@ int main() {
   t = t*7;
 
   // solve equation 2, which finds A
-  A = pow( ((r/m?)*t + A), m);
+  A = pow( ((r/m)*t + A), m);
 
   /***** Display results to User *********/
   // output for the form c(t) = xx where t in the equation is shown in weeks
