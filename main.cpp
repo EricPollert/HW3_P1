@@ -47,6 +47,10 @@ int main() {
 
   /***** Display results to User *********/
   // output for the form c(t) = xx where t in the equation is shown in weeks
+  cout << setprecision(0) << fixed;
+  cout << setw(10) << "Your input is being evaluated.";
+  cout << "\n";
+  cout << setw(10);
   cout << "c(" << t/7.0 << ") = " << ct << endl;
 
   return 0;
